@@ -1,3 +1,12 @@
+/*Couleurs :
+Gris foncé : #505050
+Gris clair : #606060
+Gris très clair : #A6A6A6*/
+
+
+
+
+
 body {
   background-image: url("/images/bg.jpg");
 }
@@ -7,8 +16,12 @@ header, main, footer{
     box-sizing: border-box;
     width: 994px;
     margin: auto;
-}
 
+}
+p, li{
+    font-family: "Helvetica Neue" ;
+    font-size: 13px
+}
 
 /*---------------------------------Header--------------------*/
 
@@ -20,6 +33,7 @@ header {
 
 h1 {
   font-size: 52px;
+  font-family: "Terminal Dosis";
 }
 
 header .icon {
@@ -32,17 +46,27 @@ header .icon {
   text-align: center;
 }
 
+nav {
+    bottom: 0;
+    background-color: #fafafa;
+    width: 100%;
+    height: 59px;
+    text-align: center;
+}
 
 nav ul li {
   display: inline-block;
-}
+  margin-right: 32px;
+  line-height: 2;
+  font-family: "Terminal Dosis";
+  font-size: 13px;
+  font-weight: bolder;
 
-nav {
-  bottom: 0;
-  background-color: grey;
-  width: 100%;
-  height: 59px;
-  text-align: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
 }
 
 header nav > ul li {
@@ -68,10 +92,28 @@ header p {
 
 img {
   width: 900px;
-  height: 508px
+  height: 508px;
+  margin-bottom: 38px;
 }
 
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Terminal Dosis";
 
+}
+
+main .articleDesc{
+    text-align: center;
+    color: #606060;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+main p{
+    margin-bottom: 30px;
+    color: #505050;
+
+}
 
 
 
@@ -87,9 +129,22 @@ img {
 
 /*---------------------------------Footer--------------------*/
 
+footer{
+    background-color: #fafafa;
+}
 
 
 
+h3{
+    text-align: center;
+    background-color: white;
+    height: 75px;
+}
+
+.footerLinks {
+    display: inline-block;
+
+}
 
 
 
