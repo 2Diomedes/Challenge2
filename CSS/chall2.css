@@ -31,6 +31,12 @@ header {
   margin: 50px auto 25px auto;
 }
 
+#search {
+  width: auto;
+  height: auto;
+  margin-top: 4.5px;
+}
+
 h1 {
   font-size: 52px;
   font-family: "Terminal Dosis";
@@ -42,7 +48,7 @@ header .icon {
   bottom: 97px;
   width: 34px;
   height: 22px;
-  background-color: lightgrey;
+  background-color: #fafafa;
   text-align: center;
 }
 
@@ -54,9 +60,9 @@ nav {
     text-align: center;
 }
 
-nav ul li {
+.mother > li {
   display: inline-block;
-  margin-right: 32px;
+  padding: 0px 50px;
   line-height: 2;
   font-family: "Terminal Dosis";
   font-size: 13px;
@@ -77,9 +83,28 @@ header p {
   margin-bottom: 25px;
 }
 
+/*lddm = list drop down menu*/
+.lddm:hover .ddm {
+  display: block;
+}
+
+.lddm {
+  position: relative;
+}
+
 /*ddm = drop down menu*/
 .ddm {
+
+  width: 100%;
   display: none;
+  position: absolute;
+  border: 3px solid red;
+  margin: auto;
+}
+
+.ddm li {
+  height: 33px;
+  margin: auto;
 }
 
 
